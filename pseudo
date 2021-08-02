@@ -1,0 +1,27 @@
+1. Put together a script that creates a game board and a knight.
+
+    class that creates a board and a knight piece
+
+                      or
+
+    A class for the board and a class for the knight, that has its possible moves as variables
+
+    knight moves are plus or minus two om a x/y axis, then plus or minus one on a x/y
+     axis (the opposite axis to the first operation).
+
+2.Treat all possible moves the knight could make as children in a tree. 
+  Don’t allow any moves to go off the board.
+
+  create method that generates all possible moves
+    input validation for moves that aren't included on board/illegal
+
+3. Decide which search algorithm is best to use for this case. 
+  Hint: one of them could be a potentially infinite series.
+
+       breadth first for shortest amount of moves (distance between nodes)
+
+4. Use the chosen search algorithm to find the shortest path between the starting 
+  square (or node) and the ending square.
+  Output what that full path looks like, e.g.:
+
+    on each iteration:
